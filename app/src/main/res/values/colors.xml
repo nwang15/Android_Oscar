@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="send_oscar_title_color">#990000</color>
+    <color name="send_oscar_background_color">#ddbbbb</color>
+    <color name="send_oscar_edit_text_background_color">#ccdddddd</color>
+    <color name="receive_oscar_background_color">#99cccc</color>
+    <color name="receive_oscar_title_color">#009999</color>
+    <color name="receive_oscar_text_view_background_color">#ccdddddd</color>
+    <color name="receive_oscar_text_view_text_color">#009999</color>
+
+</resources>

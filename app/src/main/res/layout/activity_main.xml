@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context="ca.nait.nwang15.oscarproject.MainActivity"
+    android:id="@+id/send_activity_linear_layout"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/send_oscar_title"
+        android:textSize="25sp"
+        android:textColor="@color/send_oscar_title_color"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/radio_group_choice"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+
+        <RadioButton
+            android:id="@+id/BestPicture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Best_Picture"
+            />
+
+        <RadioButton
+            android:id="@+id/BestActor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Best_Actor"
+           />
+        <RadioButton
+            android:id="@+id/BestActress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Best_Actress"
+            />
+        <RadioButton
+            android:id="@+id/FilmEditing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Film_Editing"
+           />
+        <RadioButton
+            android:id="@+id/VisualEffects"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Visual_Effcts"
+           />
+
+    </RadioGroup>
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="@string/send_oscar_nominee_hint"
+        android:background="@color/send_oscar_edit_text_background_color"
+        android:id="@+id/send_nominee_edit_text"
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="@string/send_oscar_comment_hint"
+        android:background="@color/send_oscar_edit_text_background_color"
+        android:id="@+id/send_oscar_comment_text"
+        />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/send_oscar_button_text"
+        android:textSize="15sp"
+        android:layout_margin="5dp"
+        android:id="@+id/send_oscar_button"
+        android:layout_gravity="center_horizontal"/>
+
+
+</LinearLayout>

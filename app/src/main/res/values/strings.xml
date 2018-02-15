@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Oscarproject</string>
+    <string name="Best_Picture">Best Picture</string>
+    <string name="Best_Actor">Best Actor</string>
+    <string name="Best_Actress">Best Actress</string>
+    <string name="Film_Editing">Film Editing</string>
+    <string name="Visual_Effcts">Visual Effcts</string>
+
+    <string name="send_oscar_title">Oscare Review</string>
+    <string name="send_oscar_nominee_hint">Type Nominee</string>
+    <string name="send_oscar_comment_hint">Type some comments here...</string>
+    <string name="send_oscar_button_text">Submit</string>
+
+    <string name="receive_oscar_title">Oscar Reviews List</string>
+    <string name="server_url">http://www.youcode.ca/Lab01Servlet</string>
+</resources>
